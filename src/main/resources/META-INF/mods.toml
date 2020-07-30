@@ -1,0 +1,29 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+    modLoader="javafml"
+    # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+    loaderVersion="[11]"
+    # If the mods defined in this file should show as seperate resource packs
+    showAsResourcePack=false
+
+    [[mods]]
+      modId="dungeonitems"
+      version="1.0.2"
+      displayName="Dungeon Items"
+      authors="C13H10"
+      description='''
+      Displays dungeon item quality on dungeon items
+      '''
+
+      [[dependencies.dungeonitems]]
+        modId="forge"
+        mandatory=true
+        versionRange="[11]"
+        ordering="NONE"
+        side="BOTH"
+
+      [[dependencies.dungeonitems]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.8.9]"
+        ordering="NONE"
+        side="BOTH"

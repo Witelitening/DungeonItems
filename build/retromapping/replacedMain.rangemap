@@ -1,0 +1,87 @@
+Symbol range map extraction starting
+Processing 3 files
+processing codes\C13H10\dungeonitems\DungeonItems.java
+@|codes\C13H10\dungeonitems\DungeonItems.java|8|33|codes.C13H10.dungeonitems|package|codes.C13H10.dungeonitems|(file)
+Class Start: codes.C13H10.dungeonitems.DungeonItems
+   @|codes\C13H10\dungeonitems\DungeonItems.java|447|461|PlayerListener|class|codes.C13H10.dungeonitems.listeners.PlayerListener
+   @|codes\C13H10\dungeonitems\DungeonItems.java|462|476|playerListener|field|codes.C13H10.dungeonitems.DungeonItems|playerListener|
+   @|codes\C13H10\dungeonitems\DungeonItems.java|483|497|PlayerListener|class|codes.C13H10.dungeonitems.listeners.PlayerListener
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|codes\C13H10\dungeonitems\DungeonItems.java|539|543|init|method|codes.C13H10.dungeonitems.DungeonItems|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|codes\C13H10\dungeonitems\DungeonItems.java|544|566|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|codes\C13H10\dungeonitems\DungeonItems.java|567|572|event|param|codes.C13H10.dungeonitems.DungeonItems|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|codes\C13H10\dungeonitems\DungeonItems.java|588|602|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|codes\C13H10\dungeonitems\DungeonItems.java|603|612|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|codes\C13H10\dungeonitems\DungeonItems.java|613|621|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|codes\C13H10\dungeonitems\DungeonItems.java|622|636|playerListener|field|codes.C13H10.dungeonitems.DungeonItems|playerListener
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : codes.C13H10.dungeonitems.DungeonItems
+endProcessing codes\C13H10\dungeonitems\DungeonItems.java
+
+processing codes\C13H10\dungeonitems\listeners\PlayerListener.java
+@|codes\C13H10\dungeonitems\listeners\PlayerListener.java|8|43|codes.C13H10.dungeonitems.listeners|package|codes.C13H10.dungeonitems.listeners|(file)
+Class Start: codes.C13H10.dungeonitems.listeners.PlayerListener
+   Method Start: onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|414|427|onItemTooltip|method|codes.C13H10.dungeonitems.listeners.PlayerListener|onItemTooltip|(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|428|444|ItemTooltipEvent|class|net.minecraftforge.event.entity.player.ItemTooltipEvent
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|445|446|e|param|codes.C13H10.dungeonitems.listeners.PlayerListener|onItemTooltip|(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V|e|0
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|458|467|ItemStack|class|net.minecraft.item.ItemStack
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|482|483|e|param|codes.C13H10.dungeonitems.listeners.PlayerListener|onItemTooltip|(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V|e|0
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|484|493|itemStack|field|net.minecraftforge.event.entity.player.ItemTooltipEvent|itemStack
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|521|526|Utils|class|codes.C13H10.dungeonitems.utils.Utils
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|527|540|getNBTInteger|method|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|658|659|e|param|codes.C13H10.dungeonitems.listeners.PlayerListener|onItemTooltip|(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V|e|0
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|660|667|toolTip|field|net.minecraftforge.event.entity.player.ItemTooltipEvent|toolTip
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|668|672|size|method|java.util.Collection|size|()I
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|741|750|Minecraft|class|net.minecraft.client.Minecraft
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|751|763|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|766|778|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|779|799|advancedItemTooltips|field|net.minecraft.client.settings.GameSettings|advancedItemTooltips
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|906|907|e|param|codes.C13H10.dungeonitems.listeners.PlayerListener|onItemTooltip|(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V|e|0
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|908|917|itemStack|field|net.minecraftforge.event.entity.player.ItemTooltipEvent|itemStack
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|918|931|isItemDamaged|method|net.minecraft.item.ItemStack|isItemDamaged|()Z
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1034|1040|String|class|java.lang.String
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1051|1057|String|class|java.lang.String
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1058|1064|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1065|1083|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1084|1089|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1119|1137|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1138|1142|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1181|1182|e|param|codes.C13H10.dungeonitems.listeners.PlayerListener|onItemTooltip|(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V|e|0
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1183|1190|toolTip|field|net.minecraftforge.event.entity.player.ItemTooltipEvent|toolTip
+      @|codes\C13H10\dungeonitems\listeners\PlayerListener.java|1191|1194|add|method|java.util.List|add|(ILjava/lang/Object;)V
+   Method End: onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+Class End  : codes.C13H10.dungeonitems.listeners.PlayerListener
+endProcessing codes\C13H10\dungeonitems\listeners\PlayerListener.java
+
+processing codes\C13H10\dungeonitems\utils\Utils.java
+@|codes\C13H10\dungeonitems\utils\Utils.java|8|39|codes.C13H10.dungeonitems.utils|package|codes.C13H10.dungeonitems.utils|(file)
+Class Start: codes.C13H10.dungeonitems.utils.Utils
+   Method Start: getNBTInteger(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I
+      @|codes\C13H10\dungeonitems\utils\Utils.java|164|177|getNBTInteger|method|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I
+      @|codes\C13H10\dungeonitems\utils\Utils.java|178|187|ItemStack|class|net.minecraft.item.ItemStack
+      @|codes\C13H10\dungeonitems\utils\Utils.java|188|192|item|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|item|0
+      @|codes\C13H10\dungeonitems\utils\Utils.java|194|200|String|class|java.lang.String
+      @|codes\C13H10\dungeonitems\utils\Utils.java|204|208|path|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|path|1
+      @|codes\C13H10\dungeonitems\utils\Utils.java|224|228|item|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|item|0
+      @|codes\C13H10\dungeonitems\utils\Utils.java|240|244|item|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|item|0
+      @|codes\C13H10\dungeonitems\utils\Utils.java|245|259|hasTagCompound|method|net.minecraft.item.ItemStack|hasTagCompound|()Z
+      @|codes\C13H10\dungeonitems\utils\Utils.java|277|291|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound
+      @|codes\C13H10\dungeonitems\utils\Utils.java|298|302|item|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|item|0
+      @|codes\C13H10\dungeonitems\utils\Utils.java|303|317|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|codes\C13H10\dungeonitems\utils\Utils.java|338|344|String|class|java.lang.String
+      @|codes\C13H10\dungeonitems\utils\Utils.java|355|359|path|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|path|1
+      @|codes\C13H10\dungeonitems\utils\Utils.java|383|387|path|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|path|1
+      @|codes\C13H10\dungeonitems\utils\Utils.java|388|392|path|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|path|1
+      Field: Array Length, skipping
+      @|codes\C13H10\dungeonitems\utils\Utils.java|403|409|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|codes\C13H10\dungeonitems\utils\Utils.java|454|460|hasKey|method|net.minecraft.nbt.NBTTagCompound|hasKey|(Ljava/lang/String;)Z
+      @|codes\C13H10\dungeonitems\utils\Utils.java|503|517|getCompoundTag|method|net.minecraft.nbt.NBTTagCompound|getCompoundTag|(Ljava/lang/String;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|codes\C13H10\dungeonitems\utils\Utils.java|639|649|getInteger|method|net.minecraft.nbt.NBTTagCompound|getInteger|(Ljava/lang/String;)I
+      @|codes\C13H10\dungeonitems\utils\Utils.java|650|654|path|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|path|1
+      @|codes\C13H10\dungeonitems\utils\Utils.java|655|659|path|param|codes.C13H10.dungeonitems.utils.Utils|getNBTInteger|(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I|path|1
+      Field: Array Length, skipping
+   Method End: getNBTInteger(Lnet/minecraft/item/ItemStack;[Ljava/lang/String;)I
+Class End  : codes.C13H10.dungeonitems.utils.Utils
+endProcessing codes\C13H10\dungeonitems\utils\Utils.java
+
