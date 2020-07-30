@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 
 
-@Mod(modid = "dungeonitems", name = "Dungeon Items", version = "1.1", clientSideOnly = true, acceptedMinecraftVersions = "1.8.9-11.15.1.2318-1.8.9")
+@Mod(modid = "dungeonitems", name = "Dungeon Items", version = "1.0.2", clientSideOnly = true, acceptedMinecraftVersions = "1.8.9-11.15.1.2318-1.8.9")
 public class DungeonItems {
     private PlayerListener playerListener = new PlayerListener();
     @Mod.EventHandler
